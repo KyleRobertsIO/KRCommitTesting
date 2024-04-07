@@ -28,7 +28,7 @@
       "info_path": "cz_customize_info.txt",
       "info": "This is customized info",
       "commit_parser": "^(?:Merged PR \\d+: )?((?P<change_type>feature|fix|refactor|performance|break)(?:\\((?P<scope>[^()\r\n]*)\\)|\\()?(?P<breaking>!)?|\\w+!):\\s(?P<message>.*)?",
-      "changelog_pattern": "^(?:Merged PR \\d+: )?((BREAKING[\\-\\ ]CHANGE|\\w+)(\\(.+\\))?!?):",
+      "changelog_pattern": "^(break|feature|fix)",
       "change_type_map": {
         "break": "Breaking Change",
         "feature": "Feature",
