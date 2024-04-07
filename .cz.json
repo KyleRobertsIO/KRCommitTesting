@@ -11,7 +11,7 @@
         "example": "feature: this feature enable customize through config file",
         "schema": "<type>(<scope>): <subject>\r\n<BLANK LINE>\r\n<footer>",
         "schema_pattern": "<type>(<scope>): <subject>\r\n<BLANK LINE>\r\n<footer>",
-        "bump_pattern": "^(?((\\w+)(\\(.+\\))?!?):",
+        "bump_pattern": "^(?:((\\w+)(\\(.+\\))?!?):",
         "bump_map": {
           "break": "MAJOR",
           "feature": "MINOR",
