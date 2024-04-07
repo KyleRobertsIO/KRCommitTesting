@@ -9,8 +9,8 @@
     "customize": {
       "message_template": "{{change_type}}{% if change_scope %}({{change_scope}}){% endif %}:{% if change_message %} {{change_message}}{% endif %}",
       "example": "feature: this feature enable customize through config file",
-      "schema": "<type>(<scope>): <subject>\r\n<BLANK LINE>\r\n<footer>",
-      "schema_pattern": "<type>(<scope>): <subject>\r\n<BLANK LINE>\r\n<footer>",
+      "schema": "<type>(<scope>): <subject>",
+      "schema_pattern": "<type>(<scope>): <subject>",
       "bump_pattern": "^(break|feature|fix)",
       "bump_map": {
         "break": "MAJOR",
@@ -27,7 +27,7 @@
       ],
       "info_path": "cz_customize_info.txt",
       "info": "This is customized info",
-      "commit_parser": "^(?:Merged PR \\d+: )?((?P<change_type>feature|fix|refactor|performance|break)(?:\\((?P<scope>[^()\r\n]*)\\)|\\()?(?P<breaking>!)?|\\w+!):\\s(?P<message>.*)?",
+      "commit_parser": "^(?P<change_type>feature|fix|break)(?:\\((?P<scope>[^()\r\n]*)\\)|\\w+!):\\s(?P<change_message>.*)?",
       "changelog_pattern": "^(break|feature|fix)",
       "change_type_map": {
         "break": "Breaking Change",
