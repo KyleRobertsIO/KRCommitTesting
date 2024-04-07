@@ -1,1 +1,5 @@
-print(1)
+import sys
+
+print(123)
+
+sys.exit(0)
