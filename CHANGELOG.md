@@ -1,3 +1,9 @@
+## 1.4.0 (2024-04-07)
+
+### Feature
+
+- **main.py**: implemented the add func
+
 ## 1.3.0 (2024-04-07)
 
 ### Feature
