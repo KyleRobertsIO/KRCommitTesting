@@ -1,6 +1,6 @@
 import sys
 
-print(123)
+print(1234)
 print("abc")
 
 sys.exit(0)
