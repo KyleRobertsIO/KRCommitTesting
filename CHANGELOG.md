@@ -1,3 +1,10 @@
+## 1.1.0 (2024-04-07)
+
+### Feature
+
+- **/src/__init__.py**: initialized a new src module
+- **main.py**: new print line
+
 ## 1.0.0 (2024-04-07)
 
 ### Breaking Change
