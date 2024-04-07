@@ -1,6 +1,7 @@
 import sys
+from src.math import add
 
-print(1234)
+print(add(10, 11))
 print("abc")
 
 sys.exit(0)
