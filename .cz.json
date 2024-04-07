@@ -27,7 +27,7 @@
       ],
       "info_path": "cz_customize_info.txt",
       "info": "This is customized info",
-      "commit_parser": "^(?P<change_type>feature|fix|break)(?:\\((?P<scope>[^()\r\n]*)\\)|\\w+!):\\s(?P<change_message>.*)?",
+      "commit_parser": "^(?P<change_type>feature|fix|break)(?:\\((?P<scope>[^()\r\n]*)\\)|\\w+!):\\s(?P<message>.*)?",
       "changelog_pattern": "^(break|feature|fix)",
       "change_type_map": {
         "break": "Breaking Change",
